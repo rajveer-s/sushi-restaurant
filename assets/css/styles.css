@@ -259,7 +259,9 @@ img {
 }
 
 /* Active link */
-
+.active-link {
+  color: var(--first-color);
+}
 
 /*=============== HOME ===============*/
 .home {
@@ -716,7 +718,7 @@ img {
 .scrollup {
   position: fixed;
   right: 1rem;
-  bottom: 3rem;
+  bottom: -50%;
   background-color: var(--container-color);
   box-shadow: 0 4px 12px hsla(19, 64%, 24%, .1);
   display: inline-flex;
@@ -734,7 +736,7 @@ img {
 
 /* Show Scroll Up*/
 .show-scroll {
-  bottom: 3rem; 
+  bottom: 3rem;
 }
 
 /*=============== BREAKPOINTS ===============*/
