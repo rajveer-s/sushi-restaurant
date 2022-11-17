@@ -254,7 +254,9 @@ img {
 
 
 /* Change background header */
-
+.bg-header {
+  box-shadow: 0 2px 8px hsla(19, 64%, 24%, .1);
+}
 
 /* Active link */
 
@@ -301,7 +303,7 @@ img {
 }
 
 .home__leaf-1,
-.home__leaf-2{
+.home__leaf-2 {
   position: absolute;
   opacity: .2;
 }
@@ -315,10 +317,11 @@ img {
 
 .home__leaf-2 {
   width: 100px;
-  top: -2rem;
+  right: -2rem;
   bottom: 1rem;
   transform: rotate(-15deg);
 }
+
 /*=============== BUTTON ===============*/
 .button {
   display: inline-flex;
@@ -332,7 +335,7 @@ img {
   transition: background .3s;
 }
 
-.button> i {
+.button>i {
   font-size: 1.5rem;
   transition: transform .3s;
 }
